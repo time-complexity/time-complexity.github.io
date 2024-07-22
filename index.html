@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJHF8Y6TZD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KJHF8Y6TZD');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Augmented Reality Apps. Develop custom AR applications for solving your company needs. VR Gaming/Apps Development. Design and develop interactive VR games or apps for entertainment purposes. VR Training Simulations. Build realistic VR simulations for training and educational purposes.">
+  <meta name="keywords" content="VR, XR, AR, Augmented, Virtual, Reality, Development, Editor, Immersive, Customization, Custom">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Time Complexity</title>
+  <link href="img/TC_favicon.png" rel="icon" media="(prefers-color-scheme: dark)" />
+  <link href="img/TC_favicon.png" rel="icon" media="(prefers-color-scheme: light)"  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: Poppins;
+      color: rgb(100, 100, 100);
+      font-weight: 300;
+      font-size: 18px;
+    }
+
+    .navbar-custom,
+    .bg {
+      background-color: #FFFFFF;
+    }
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav .nav-link {
+      color: #222222;
+      font-size: 18px;
+    }
+
+    .VersiaSectionSpacing {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    .herotext {
+      color: black;
+      font-family: Sen;
+      font-weight: 600;
+      font-size: 46px;
+      line-height: 1.25 !important;
+      letter-spacing: -0.15rem !important;
+      margin-bottom: 40px;
+    }
+    .secondtext {
+      color: black;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 1.25 !important;
+      letter-spacing: -0.05rem !important;
+      margin-bottom: 40px;
+    }
+    .smalltext {
+      font-weight: 200;
+      font-size: 15px;
+      line-height: 1.25 !important;
+      letter-spacing: -0.05rem !important;
+    }
+
+    h1 {
+      color: black;
+      font-family: Sen;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 1.25 !important;
+      letter-spacing: -0.05rem !important;
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      color: black;
+      font-family: Sen;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 1.25 !important;
+      letter-spacing: -0.05rem !important;
+      margin-bottom: 30px;
+    }
+
+    .btn-primary,
+    .btn-primary:active,
+    .btn-primary:visited {
+      font-size: 18px;
+      color: black !important;
+
+      /* background-color: rgba(255, 147, 35, 1) !important; */
+      background-color: rgb(244, 182, 2) !important;
+      border-color: rgb(244, 182, 2) !important;
+    }
+
+    .btn-primary:hover {
+      background-color: rgb(245, 203, 75) !important;
+      border-color: rgb(245, 203, 75) !important;
+    }
+
+    .custom-toggler.navbar-toggler {
+      border-color: black;
+      color: transparent;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(40, 40, 40, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar-toggler,
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+      outline: none;
+      border: none;
+      box-shadow: none;
+}
+
+    /* Extra small devices (portrait phones, less than 576px) */
+/*     @media (max-width: 1199px) {
+      #UseCase {
+        background-image: url("img/Fair6_Squeze.jpg");
+        height: 70vh;
+      }
+    } */
+
+    /* Small devices (landscape phones, 576px and up) */
+/*     @media (min-width: 1200px) {
+      #UseCase {
+        background-image: url("img/Fair6.jpg");
+        height: 100vh;
+      }
+    } */
+
+    /* Medium devices (tablets, 768px and up) */
+    /* @media (min-width: 768px) and (max-width: 991px) { ... } */
+
+    /* Large devices (desktops, 992px and up) */
+    /* @media (min-width: 992px) and (max-width: 1199px) { ... } */
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    /*@media (min-width: 1200px) {
+      #UseCase {
+        background-image: url("https://assets.softr-files.com/applications/993e16a6-8980-400f-aede-704a4a6f46a1/assets/8558f6ed-f2a3-40ce-bede-db611d35de0a.png");
+      }
+    }*/
+
+    #UseCase {
+      background-position: center !important;
+      background-attachment: scroll !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    #Hero {
+      background-image: url("img/photo-1622979135240-caa6648190b6.png");
+      background-position: center !important;
+      background-attachment: scroll !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .white {
+      color: white;
+
+    }
+
+    .black {
+      color: rgb(25, 25, 25);
+    }
+
+    #Features {
+      background-color: rgba(235, 238, 244, 1);
+    }
+
+    #Team, #Services {
+      background-color: rgb(243, 244, 247);
+    }
+
+    .VersiaTextFeaturesTittle {
+      color: rgb(111, 118, 121);
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .VersiaTextFeaturesContent {
+      color: rgb(111, 118, 121);
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-bottom: 20px;
+    }
+
+    .VersiaFooter {
+      font-size: 12px;
+    }
+
+    .thin {
+      font-weight: lighter;
+    }
+
+    .image-container {
+      position: relative;
+      overflow: hidden; /* Ensures the overlay stays within the rounded corners */
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      border-top-left-radius: 0.25rem; /* Match this to the card's border-radius */
+      border-top-right-radius: 0.25rem; /* Match this to the card's border-radius */
+
+    }
+
+    .card:hover .overlay {
+      opacity: 1;
+    }
+
+    .card-img-top {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .rounded-circle {
+      width: 150px; /* Adjust the width as needed */
+      height: 150px; /* Height should match the width to ensure a perfect circle */
+      object-fit: cover; /* Ensure the image covers the circle area */
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden; /* Ensure content stays within bounds */
+    }
+
+    .card-img-top1 {
+      width: 100%; /* Ensures image scales to container width */
+      height: 400px; /* Set a consistent height for all images */
+      object-fit: cover; /* Ensures the image covers the container area without distortion */
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <img src="img/9a1bc96f-9183-4483-bd5c-fcb1d0509e9e.png" width="50" height="50" alt="">
+      </a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-text">
+          <li class="nav-item px-2 ms-auto">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item px-2 ms-auto">
+            <a class="nav-link nav-text" href="#Projects">Projects</a>
+          </li>
+          <li class="nav-item ps-3 ms-auto">
+            <a href="#Contact" class="btn btn-primary btn-lg active contact-button px-4 rounded-1" role="button"
+              aria-pressed="true">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Text + video -->
+  <div id="Hero">
+      <div class="container">
+        <div class="row VersiaSectionSpacing align-items-center">
+          <div class="col-md-8 py-5">
+            <h1 class="herotext pt-5 pb-2">Your Vision, Our XR Solutions.</h1>
+            <p class="secondtext pb-5">Building experiences with cutting-edge technology.
+            </p>
+          </div>
+<!--           <div class="col-md-1"></div> 
+          <div class="col-md-6">
+            <video allowfullscreen="allowfullscreen" width="100%" loop autoplay muted src="videos/HeroVideo1.webm"></video>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  <!-- Services -->
+  <div id="Services">
+    <div class="container VersiaSectionSpacing">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-12">
+          <h1>Our Services</h1>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="text-start border border-0 rounded-2 shadow-lg p-4 bg-body-tertiary flex-grow-1">
+            <h2>Augmented Reality Apps</h2>
+            <p>Develop custom AR applications for solving your company needs.</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="text-start border border-0 rounded-2 shadow-lg p-4 bg-body-tertiary flex-grow-1">
+            <h2>VR Gaming/Apps Development</h2>
+            <p>Design and develop interactive VR games or apps for entertainment purposes.</p>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="text-start border border-0 rounded-2 shadow-lg p-4 bg-body-tertiary flex-grow-1">
+            <h2>VR Training Simulations</h2>
+            <p>Build realistic VR simulations for training and educational purposes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Projects -->
+  <div id="Projects" >
+    <div class="container VersiaSectionSpacing">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-12">
+          <h1>Our Projects</h1>
+        </div>
+        <div class="col-md-6 d-flex flex-fill">
+          <div class="card border border-0 shadow-lg w-100 position-relative rounded-top">
+            <div class="image-container position-relative rounded-top">
+              <img src="img/Versia.png" class="card-img-top1 rounded-top" alt="...">
+              <div class="overlay d-flex justify-content-center align-items-center rounded-top">
+                <a href="https://versia.studio" class="btn btn-primary px-4">Learn More</a>
+              </div>
+            </div>
+            <div class="p-4 text-start">
+              <h2>Versia Studio</h2>
+              <p class="card-text pb-3">Offer clients the ability to fully customize and preview your product before purchase.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex flex-fill">
+          <div class="card border border-0 shadow-lg w-100 position-relative rounded-top">
+            <div class="image-container position-relative rounded-top">
+              <img src="img/awake.png" class="card-img-top1 rounded-top" alt="...">
+              <div class="overlay d-flex justify-content-center align-items-center rounded-top">
+                <a href="https://awake.health" class="btn btn-primary px-4">Learn More</a>
+              </div>
+            </div>
+            <div class="p-4 text-start">
+              <h2>Awake Health</h2>
+              <p class="card-text pb-3">Professional AR simulations and learning material for medical students.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- The Team -->
+  <div id="Team">
+    <div class="container VersiaSectionSpacing">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-12">
+          <h1>The Team</h1>
+          <p class="pb-4">Meet our small team with more than three decades of combined experience in professional software development and 3D graphics.</p>
+        </div>
+        <div class="border-0 flex-fill" style="width: 18rem;">
+          <div class="d-flex justify-content-center">
+            <img src="img/profile.jpg" class="card-img-top rounded-circle" alt="Profile Image">
+          </div>
+          <div class="card-body text-center pt-4">
+            <h2>Sandi Dolsak</h2>
+            <p class="smalltext">Co-Founder</p>
+            <!-- <p class="card-text">It's all in the details.</p> -->
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        <div class="border-0 flex-fill" style="width: 18rem;">
+          <div class="d-flex justify-content-center">
+            <img src="img/Marko.jpg" class="card-img-top rounded-circle" alt="Profile Image">
+          </div>
+          <div class="card-body text-center pt-4">
+            <h2>Marko Krajinovic</h2>
+            <p class="smalltext" >Co-Founder</p>
+            <!-- <p class="card-text">IT Draft 2024 - No. 1 overall pick.</p> -->
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="Contact" class="bg">
+    <div class="container">
+      <div class="row VersiaSectionSpacing align-items-center">
+        <div class="col-md-6 b">
+          <h1>Get in Touch</h1>
+          <p>Send us your inquiries or any questions you may have at our email address:<br />
+          </p>
+          <a href="mailto:info@timecomplexity.dev?subject=Hello" title="email"
+            class="btn btn-primary btn-lg active contact-button px-4 my-4 rounded-1" role="button"
+            aria-pressed="true">info@timecomplexity.dev</a>
+        </div>
+        <div class="col-md-6"><img src="img/email-ffbd35.svg" width="100%" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container">
+    <div class="row">
+      <div class="col py-3 my-2">
+        <a href="#home" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <img src="img/9a1bc96f-9183-4483-bd5c-fcb1d0509e9e.png" class="bi" width="50" height="50" />
+        </a>
+
+      </div>
+    </div>
+    <div class="row border-top py-3">
+      <div class="col-md-10 d-flex">
+        <small class="mb-3 mb-md-0 text-muted VersiaFooter">© 2024 Time Complexity. All rights reserved.</small>
+      </div>
+
+      <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
+        <li><a href="https://www.linkedin.com/company/timecomplexity"><img class="mb-3" width="20" height="20"
+              src="img/LinkedInBlack2.png" /></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
