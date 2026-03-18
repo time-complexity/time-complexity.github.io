@@ -552,7 +552,7 @@
       <div class="row border-top py-3">
         <div class="col-md-10 d-flex">
           <small class="mb-3 mb-md-0 text-muted VersiaFooter"
-            >© 2024 Time Complexity. All rights reserved.</small
+            >© <span id="year"></span> Time Complexity. All rights reserved.</small
           >
         </div>
 
@@ -575,5 +575,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
