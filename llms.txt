@@ -1,0 +1,40 @@
+# Time Complexity
+
+> Time Complexity is a small software studio that builds AR/VR experiences, mobile apps, games, websites, projection mapping and interactive product showcases. Our team has more than three decades of combined experience in professional software development, 3D graphics and crafting engaging digital experiences.
+
+Time Complexity works with startups, growing companies, established brands and forward-thinking organizations that want to turn bold ideas into impactful digital experiences. The website is a single page available in English and Slovenian.
+
+## Services
+
+- App Development: immersive applications for mobile, VR and AR.
+- Website Development: fast, responsive and interactive 3D websites built with React, Vue.js and Three.js.
+- Game Development: games for web, mobile and VR built with Unity, PixiJS and Three.js.
+- Projection Mapping: custom visuals and animations mapped onto buildings, objects and stages.
+- Product Showcases: interactive 3D product exploration and configuration on the web, in virtual showrooms or in AR.
+- AI Avatars & Voice: AI-driven characters and avatars with natural AI voice-overs.
+- 3D Animation and Gaussian splatting: Cinema 4D and real-time engines for animations and visuals.
+
+## Technologies
+
+Unity, Three.js, PixiJS, React, Vue.js, Cinema 4D, AI voice-overs, AI avatars.
+
+## Selected projects
+
+- [Versia Studio](https://versia.studio): a virtual showroom where customers fully customize and preview a product before purchase.
+- [Commedia](https://commedia.app): VR video players for immersive, interactive content, with a native Meta Quest app and a browser-based web app.
+- [Stroop Gaming](https://stake.com/casino/group/stroop): casino games for an online casino game studio.
+- [Awake Health](https://www.awake.health/): an MR educational platform with realistic simulations for medical professionals.
+- [Sunrise Robotics](https://sunriserobotics.co/): intelligent, autonomous robotic cells for manufacturing.
+- [GIC Gradnje](https://gic.si/): a full-service construction company, from design to building management.
+
+## Team
+
+- Sandi Dolšak: UX Specialist
+- Amadej Mlinarič: Software Engineer
+- Marko Krajinović: Software Engineer
+
+## Contact
+
+- [Website](https://timecomplexity.dev)
+- [Email](mailto:business@timecomplexity.dev)
+- [LinkedIn](https://www.linkedin.com/company/timecomplexity)
